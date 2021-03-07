@@ -10,7 +10,7 @@ export default function Users(props) {
                     <li key={user.id} className='list-group-item'>
                         <img 
                         alt='error con el servidor' 
-                        style={{borderRadius:'50%', display:'block', marginLeft:'auto', marginRight:'auto'}} 
+                        style={{borderRadius:'50%', display:'block', marginLeft:'auto', marginRight:'auto',cursor:'pointer'}} 
                         src={user.avatar}
                         onClick={e => Router.push('/users/[id]', `/users/${user.id}`)}
                         />

@@ -10,7 +10,7 @@ export default function NavBar() {
                     </a>
 
                     <a class="navbar-brand">
-                     <Link href='/test'>Users</Link>
+                     <Link href='/UsersPage'>Users</Link>
                     </a>
             </nav>
         </div>
