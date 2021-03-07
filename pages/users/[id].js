@@ -20,6 +20,5 @@ export default function UserId(props) {
 UserId.getInitialProps = async (ctx) => {
     const res = await fetch(`https://reqres.in/api/users/${ctx.query.id}`)
     const data = await res.json()
-    console.log(data)
     return {users:data.data  }
 }
